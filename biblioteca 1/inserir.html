@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <title>Gestão da biblioteca</title> 
+    </head>
+  <body>
+      <h1> Inserir Livros</h1>
+    
+      <form action="inserir.php" method="post">
+ <p>
+    <label for="IsbnP">ISBN:</label>
+    <input type= "text" name= "isbnP" size= "13"  maxlength= "13" required /></p>
+    
+    <p>
+    <label for="TituloP">Título:</label>
+    <input type= "text" name= "tituloP" size= "80" required maxlength= "100" /></p>
+    
+    <p>
+    <label for="AutorP">Autor:</label>
+    <input type= "text" name= "autorP" size= "80" required maxlength= "100" /></p>
+     <p>
+    <label for="num_pagP">Nª Paginas :</label>
+    <input type= "number" name= "num_pagP" size= "5" min="1" max="99999"/></p>
+ <p>
+    <label for="EditoraP">Editora:</label>
+    <input type= "text" name= "editoraP" size= "50" maxlength= "50" /></p>    
+    <p>
+    <label for="TamanhoP">tamanho:</label>
+    <input type= "text" name= "tamanhoP" size= "10" maxlength= "10" /></p>
+    
+    
+    <input type="submit" value="Inserir">
+    <input type="reset" value="limpar">
+</form>
+
+  </body>
+  </html>

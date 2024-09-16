@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    
+<!--area reservada para as meta tags -->
+<meta charset="utf-8">
+
+<title>farfeth</title>
+
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Registo de Utilizador</h1>
+
+<form action="registo.php" method="post" enctype="multipart/form-data">
+Nick:<input type="text" size="20" name="nick" required><br/><br/>
+Nome: <input type="text" size="100" name="nome" required><br/><br/>
+E-mail:<input type="text" size="50" name="email" required><br/><br/>
+
+<!-- o type date permite que apareça um calendário -->
+Data de nascimento:<input type="date" size="10" name="data_nasc" required><br/><br/>
+
+<!-- o type password mostra asteriscos ao digitar a senha-->
+Senha:<input type="password" size="20" name="pass" required><br/><br/>
+Foto:<input type="file" name="ficheiro"><br><br>
+<input type="submit" value="Registar" class="custom-button">
+<input type="reset" value="Limpar" class="custom-button">
+</form>
+<br/>
+<a href="registrar.php" target="_self">Volta ao Menu</a>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="GATO"> 
+ <xsd:complexType> 
+ <xsd:sequence>
+ <xsd:element name="NOME" type="xsd:string"/>
+ <xsd:element name="RAÇA" type="xsd:string"/>
+ <xsd:element name="IDADE" type="xsd:positiveInteger"/>
+ <xsd:element name="ESTERILIZADO" type="xsd:boolean"/>
+ <xsd:element name="SEMGARRAS" type="xsd:boolean"/>
+<xsd:element name="LICENÇA" type="xsd:string"/>
+ <xsd:element name="DONO" type="xsd:string"/> 
+ </xsd:sequence>
+ </xsd:complexType>
+</xsd:element>

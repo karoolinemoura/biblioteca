@@ -1,0 +1,73 @@
+<Livros>
+
+<livro ISBN="1156325">
+<titulo>A culpa e das estrelas</titulo>
+<preco>69.00</preco>
+<autor>
+<nome>Jojo Moyes</nome>
+<mail>joojo@moyes.pt</mail>
+<mail>jojo@live.com.pt</mail>
+</autor>
+<autor>
+<nome>Maria Felipa</nome>
+</autor>
+<editora>intriseca</editora>
+</livro>
+<livro ISBN="18566325">
+<titulo>A culpa e das estrelas o recomeço</titulo>
+<preco>69.00</preco>
+<autor>
+<nome>Jojo Moyes</nome>
+<mail>joojo@moyes.pt</mail>
+<mail>santiago@live.com.pt</mail>
+</autor>
+<autor>
+<nome>Ana Maria</nome>
+</autor>
+<editora>intriseca</editora>
+</livro>
+<livro ISBN="1325625">
+<titulo>A minha vida toda</titulo>
+<preco>109.00</preco>
+<autor>
+<nome>Jojo Moyes</nome>
+<mail>joojo@moyes.pt</mail>
+<mail>santiago@live.com.pt</mail>
+</autor>
+<autor>
+<nome>Ana Maria</nome>
+</autor>
+<editora>intriseca</editora>
+</livro>
+<livro ISBN="72122">
+<titulo>Base de Dados</titulo>
+<preco>35.00</preco>
+<autor>
+<nome>Joaquim Santos</nome>
+</autor>
+<editora>SoPublica</editora>
+</livro>
+<livro ISBN="231129">
+<titulo>Android para totos</titulo>
+<preco>45.50</preco>
+<autor>
+<nome>Ana Maria</nome>
+<mail>am@iefppt</mail>
+<mail>anamaria@gmail.com</mail>
+</autor>
+<editora>Elea</editora>
+</livro>
+<livro ISBN="24223">
+<titulo>Php e Crud básico</titulo>
+<preco>38.50</preco>
+<evento>
+<local>
+<cidade>Porto</cidade>
+<pais>Portugal</pais>
+</local>
+<dataInicio>10-06-2024</dataInicio>
+<dataTermino>17-06-2024</dataTermino>
+</evento>
+<editora>Elea e IEFP</editora>
+</livro>
+</Livros>
